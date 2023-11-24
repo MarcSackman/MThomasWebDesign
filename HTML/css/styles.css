@@ -1,0 +1,108 @@
+/* www.mthomaswebdesign.com By: Marc Sackman */
+
+/* CSS Reset */
+body, header, nav, main, footer, h1, h3 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rules for header */
+header {
+    align-items: center;
+    display: flex;
+    justify-content: center;   
+}
+
+header img {
+    height: auto;
+    width: 800px;
+}
+
+/* Style rules for body and images */
+body, img {
+    background-color: #000000;
+    color: antiquewhite;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+/* Style rules for navigation area */
+nav, nav ul, nav li, nav li a {
+    background-color: #1c1c1c; 
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 1.5em;
+    font-family: Geneva, Arial, sans-serif;
+    font-weight: bold;
+}
+
+nav li a {
+    display: block;
+    color: antiquewhite;
+    padding: 0.5em 2em; 
+    text-decoration: none;
+}
+
+/* Style rules for main content */
+main {
+    padding: 2%;
+    font-family: verdana, arial, sans-serif;
+    text-align: center;
+}
+
+main img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+main p {
+    font-size: 1.25em;
+}
+
+main h1 {
+    padding-top: 2%;
+    text-decoration: underline;
+}
+
+main ul {
+    list-style-type: square;
+}
+
+.link {
+    font-size: 1.75em;
+    font-weight: bold;
+    text-align: center;
+}
+
+#contact {
+    text-align: center;
+}
+
+/* Style rules for footer content */
+footer {
+    text-align: center;
+    font-size: 0.85em;
+    background-color: #1c1c1c;
+    color: antiquewhite;
+    padding: 1% 0%;
+}
+
+footer a {
+    color: antiquewhite;
+    text-decoration: none;
+}
